@@ -42,7 +42,7 @@ def generate_launch_description():
     # Gazebo Node, responsible for spawning the robot into the gazebo simulator
     # note the arguments pass the absolute path of the robot_model, and the topic to which the 
     # robot_description is published from ROS towards gazebo
-    # The list of arguments is in face a sequence of tokens that make up a bash command
+    # The list of arguments is in fact a sequence of tokens that make up a bash command
     spawnModelNodeGazebo = Node(
         package='ros_gz_sim',
         executable='create',
