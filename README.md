@@ -21,7 +21,7 @@ mobile_robot/
 │   └── gazebo_model.launch.py  # Main launch file for Gazebo simulation
 ├── include/
 ├── src/                    # Source code directory (currently empty)
-├── parameters/
+├── parameters/           # Contains YAML file for the parameter-bridge between ROS2 and Gazebo
 ├── CMakeLists.txt
 └── package.xml
 ```
